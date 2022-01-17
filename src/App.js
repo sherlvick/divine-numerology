@@ -4,7 +4,7 @@ import NavigationMenu from './containers/NavigationMenu/NavigationMenu';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{margin:"2vh 3vw"}}>
       <NavigationMenu />
       <main>
         <Outlet />
