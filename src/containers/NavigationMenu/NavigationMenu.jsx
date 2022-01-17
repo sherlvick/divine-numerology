@@ -1,5 +1,5 @@
 import classes from "./NavigationMenu.module.css";
-import Logo from "../../assets/layout/round-logo.svg";
+import Logo from "../../assets/layout/logo.svg";
 
 const NavigationMenu = () => {
     return (
