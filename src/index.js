@@ -8,14 +8,15 @@ import App from './App';
 
 
 // import containers
-import AboutUs from "./containers/AboutUs/AboutUs"
+import AboutUs from "./containers/AboutUs/AboutUs";
+import ContactUs from "./containers/ContactUs/ContactUs";
 
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />}>
-      <Route path="about-us" element={<AboutUs />}>
-      </Route>
+      <Route path="about-us" element={<AboutUs />} />
+      <Route path="contact-us" element={<ContactUs />} />
       <Route
         path="*"
         element={
