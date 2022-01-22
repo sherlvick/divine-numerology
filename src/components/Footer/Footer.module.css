@@ -1,0 +1,38 @@
+.Footer{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EACA7F;
+    padding: var(--site-footer-margin);
+}
+
+.ListView{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.ListView h3{
+    margin-top: 0;
+}
+
+.Row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Link{
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.Pdtop1em{
+    padding-top: 1em;
+}
+
+.Copyright{
+    font-size: 0.8em;
+    text-align: right;
+    padding-top: 10vh;
+}

@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  /* overflow: hidden; */
+  font-size: 20px;
   background-color: var(--color-body);
 }
 
@@ -15,11 +16,13 @@ code {
 }
 
 :root{
-  --color-body: #ffffff;
+  --color-body: #FEFAF0;
   --color-white: #ffffff;
-  --color-text: #000000;
+  --secondary-color-text: #23272E;
   --color-border: #cccccc;
   --color-error: #FB2629;
   --color-warning: #ff9966;
-  --color-InvoiceBorder: #000000
+  --color-InvoiceBorder: #000000;
+  --site-margin: 2vh 5vw;
+  --site-footer-margin: 10vh 6vw 0 6vw;
 }

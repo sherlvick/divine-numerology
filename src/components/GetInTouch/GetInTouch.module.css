@@ -1,0 +1,21 @@
+.GetInTouchWrapper {
+  /* text-align: center; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 50vh 0;
+}
+
+.Title {
+  position: relative;
+  font-weight: normal;
+  font-size: 2em;
+  /* line-height: 50px; */
+}
+
+.GetInTouchHeading {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 6em;
+  margin: 0;
+}
