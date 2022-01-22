@@ -1,0 +1,34 @@
+.Row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RowReverse {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Col {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.PdRt5Vw{
+  padding-right: 5vw;
+}
+
+.PdLt5Vw{
+  padding-left: 5vw;
+}
+
+.Title{
+    text-transform: uppercase;
+}
+
+.Description{
+  line-height: 2em;
+}

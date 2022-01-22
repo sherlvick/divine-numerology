@@ -10,6 +10,7 @@ import App from './App';
 // import containers
 import AboutUs from "./containers/AboutUs/AboutUs";
 import ContactUs from "./containers/ContactUs/ContactUs";
+import Services from "./containers/Services/Services";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Route path="/" element={<App />}>
       <Route path="about-us" element={<AboutUs />} />
       <Route path="contact-us" element={<ContactUs />} />
+      <Route path="services" element={<Services />} />
       <Route
         path="*"
         element={

@@ -1,0 +1,18 @@
+.Header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+  
+  .Heading {
+    font-weight: 900;
+    font-size: 4em;
+    text-align: center;
+  }
+  
+  .Title {
+    position: relative;
+    font-weight: normal;
+    font-size: 2em;
+  }
